@@ -16,7 +16,6 @@ nltk
 numpy>=1.16
 pandas>=0.24.0
 psutil
-python>=3.6
 scikit-learn>=0.20
 scipy
 seaborn
