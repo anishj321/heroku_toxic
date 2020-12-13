@@ -96,4 +96,4 @@ def predict():
                             )
      
 # Server reloads itself if code changes so no need to keep restarting:
-app.run(debug=True)
+app.run(debug=False,threaded=True)
