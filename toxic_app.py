@@ -96,4 +96,5 @@ def predict():
                             )
      
 # Server reloads itself if code changes so no need to keep restarting:
-app.run(debug=False,threaded=True)
+if __name__ == '__main__':
+     app.run(debug=False,threaded=True)
